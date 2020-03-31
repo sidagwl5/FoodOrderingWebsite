@@ -1,0 +1,11 @@
+@import "./styling/Menu.css";
+@import "./styling/FoodCatering.css";
+@import "./styling/Checkout.css";
+@import "./styling/Circle.css";
+
+body{
+
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,64 @@
+
+.main-circle{
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation: animated 6s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-circle p{
+
+    width: 80%;
+    text-align: center;
+}
+
+
+@keyframes animated{
+
+    0% {
+
+        background-color: white;
+        transform: rotate(0deg);
+        border-radius: 0%;
+    
+    }
+
+    45%{
+
+        background-color: yellowgreen;
+        transform: rotate(720deg);
+        border-radius: 50%;
+      
+    }
+
+    50%{
+
+        background-color: yellowgreen;
+        transform: rotate(720deg);
+        border-radius: 50%;
+       
+    }
+
+    95%{
+
+        background-color: white;
+        transform: rotate(0deg);
+        border-radius: 0%;
+        
+    }
+
+    100%{
+
+        background-color: white;
+        transform: rotate(0deg);
+        border-radius: 0%;
+      
+    }
+}
+
+

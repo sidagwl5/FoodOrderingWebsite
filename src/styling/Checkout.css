@@ -1,0 +1,42 @@
+.checkout-main{
+
+     position: relative;
+     width: 100%;
+     min-height: 100%;
+     background-color: teal;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.checkout-main h1{
+
+     color: white;
+     letter-spacing: 5px;
+     font-weight: normal;
+     font-size: 50px;
+     margin-bottom: 30px;
+}
+
+
+.checkout-submain{
+
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.part{
+
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: black;
+}

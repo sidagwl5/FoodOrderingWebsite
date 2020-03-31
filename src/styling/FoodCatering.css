@@ -1,0 +1,106 @@
+.responsive-main1{
+
+     position: relative;
+     width: 100%;
+     height: 100%;
+     background-color:black;
+}
+
+.responsive-submain1, .responsive-submain2{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.responsive-submain1{
+
+    background-image: url("../images/Food.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+}
+
+.responsive-submain2{
+
+    display: grid;
+    place-items: center;
+}
+
+.responsive-submain2 h1{
+
+    font-weight: normal;
+    color: white;
+    letter-spacing: 30px;
+    font-size: 44px;
+    text-align: center;
+    
+}
+
+.responsive-main2{
+
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color: #f4f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-submain3{
+
+    position: relative;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.7px 0.7px 20px #777777;
+    margin : 100px
+    
+}
+
+.responsive-submain3 p{
+
+    width: 85%;
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.responsive-submain3 h2{
+
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.responsive-submain3 img{
+
+    max-width: 100%;
+}
+
+[data-scroll]{
+
+     transition: 1s all ease-in-out;
+     
+}
+
+[data-scroll = "in"]{
+
+
+    transform: translateY(0px);
+    opacity: 1;
+    
+
+}
+
+[data-scroll = "out"]{
+
+    transform: translateY(100px);
+    opacity: 0;
+}
